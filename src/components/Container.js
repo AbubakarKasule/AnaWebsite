@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 // import { Typography } from 'antd';
-import Work from './Sections/Work';
-import About from './Sections/About';
+// import Work from './Sections/Work';
+// import About from './Sections/About';
 import WUC from './Sections/WebsiteUnderConstruction';
 
 // Heavilly borrowed from https://medium.com/@khwsc1/step-by-step-guide-of-simple-routing-transition-effect-for-react-with-react-router-v4-and-9152db1566a0
@@ -28,8 +28,9 @@ function Container({ location, mobile, lightMode }) {
         >
           <section className="route-section">
             <Switch location={location}>
-              <Route exact path="/" render={(props) => (<Work mobile={mobile} lightMode={lightMode} />)} />
-              <Route exact path="/about" component={(props) => (<About mobile={mobile} lightMode={lightMode} />)} />
+              {/* <Route exact path="/" render={(props) => (<Work mobile={mobile} lightMode={lightMode} />)} />
+              <Route exact path="/about" component={(props) => (<About mobile={mobile} lightMode={lightMode} />)} /> */}
+              <Route exact path="/" render={(props) => (<WUC />)} />
               <Route component={WUC} />
             </Switch>
           </section>
