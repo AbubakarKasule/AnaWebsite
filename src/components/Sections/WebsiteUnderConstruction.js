@@ -50,7 +50,7 @@ const Page = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FF94W8agkWbd1CpekYOnPCE%2FPersonal-Projects%3Fpage-id%3D728%253A1583%26node-id%3D137%253A18%26viewport%3D243%252C48%252C0.06%26scaling%3Dscale-down-width%26starting-point-node-id%3D137%253A18"
+            href="https://www.figma.com/proto/F94W8agkWbd1CpekYOnPCE/Personal-Projects?page-id=728%3A1583&node-id=137%3A18&viewport=243%2C48%2C0.06&scaling=scale-down-width&starting-point-node-id=137%3A18"
             style={{
               fontFamily: 'Canela',
               fontWeight: 250,
@@ -117,7 +117,7 @@ const Page = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FF94W8agkWbd1CpekYOnPCE%2FPersonal-Projects%3Fpage-id%3D728%253A1583%26node-id%3D137%253A18%26viewport%3D243%252C48%252C0.06%26scaling%3Dscale-down-width%26starting-point-node-id%3D137%253A18"
+          href="https://www.figma.com/proto/F94W8agkWbd1CpekYOnPCE/Personal-Projects?page-id=728%3A1583&node-id=137%3A18&viewport=243%2C48%2C0.06&scaling=scale-down-width&starting-point-node-id=137%3A18"
           style={{
             fontFamily: 'Canela',
             fontWeight: 250,
